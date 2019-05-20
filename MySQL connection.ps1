@@ -46,7 +46,7 @@ $query = "SELECT id, surname, name, patronymic FROM users;"
 $Request = Execute-MySQLQuery $query
 
 
-# Get count of rows of result
+# Get count rows of result
 $countRows = $Request.rows.count
 
 # Show result
