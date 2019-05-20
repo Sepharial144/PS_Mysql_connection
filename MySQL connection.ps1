@@ -1,8 +1,8 @@
 ﻿# Connection variables 
 $user = 'power' 
-$pass = 'Shell144##!' 
-$database = 'ckb_main' 
-$MySQLHost = '192.168.40.57'
+$pass = 'Shell!!!' 
+$database = 'db_name' 
+$MySQLHost = '192.168.0.1'
 $Global:connMySQL ="server=" + $MySQLHost + ";port=3306;uid=" + $user + ";pwd=" + $pass + ";database="+$database+";Pooling=FALSE"
 
 #-------------------------------------------------------Functions-----------------------------------------------------------------
