@@ -47,7 +47,7 @@ $Request = Execute-MySQLQuery $query
 
 
 # Get count rows of result
-$countRows = $Request.rows.count
+$countRows = $Request.Count
 
 # Show result
 for ($i = 0; $i -lt $countRows; $i++) {
