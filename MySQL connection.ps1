@@ -50,7 +50,7 @@ $Request = Execute-MySQLQuery $query
 $countRows = $Request.Count
 
 # Show result
-for ($i = 0; $i -lt $countRows; $i++) {
+for ($i = 1; $i -lt $countRows; $i++) {
 
     Write-host $Request[$i].id
     Write-host $Request[$i].surname
